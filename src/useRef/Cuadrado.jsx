@@ -17,7 +17,7 @@ const Cuadrado = () => {
   return (
     <div>
       <input type='number' placeholder='ancho' ref={anchoCuadradoRef}></input>
-      <input type='number' placeholder='alto' ref={anchoCuadradoRef}></input>
+      <input type='number' placeholder='alto' ref={altoCuadradoRef}></input>
       <button onClick={ calculate }>Calcular</button>
       <p ref={ resultadoRef }></p>
     </div>
